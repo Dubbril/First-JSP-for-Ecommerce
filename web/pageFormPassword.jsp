@@ -1,7 +1,7 @@
 <%-- 
-    Document   : index
-    Created on : Aug 20, 2016, 11:06:49 PM
-    Author     : DUBBRIL
+    Document   : pageFormPassword
+    Created on : Aug 21, 2016, 4:11:27 PM
+    Author     : Administrator
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,8 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%=1 + 2%>
-        <%= "Hello"%>
-        <%=new java.util.Date()%>
+        <h1>Hello World!</h1>
     </body>
 </html>
