@@ -12,6 +12,20 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form action="pageFormPassword2.jsp">
+            <table>
+                <tr>
+                    <td>ชื่อผู้ใช้</td>
+                    <td><input type="text" name="user" value="" /></td>
+                </tr>
+                <tr>
+                    <td>รหัสผ่าน</td>
+                    <td> <input type="password" name="password" value="" /></td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" /></td>
+                </tr>
+            </table>
+        </form>
     </body>
 </html>
