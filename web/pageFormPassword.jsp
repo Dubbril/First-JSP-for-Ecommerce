@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="pageFormPassword2.jsp">
+        <form action="pageFormPassword2.jsp" method="post">
             <table>
                 <tr>
                     <td>ชื่อผู้ใช้</td>
@@ -23,7 +23,8 @@
                     <td> <input type="password" name="password" value="" /></td>
                 </tr>
                 <tr>
-                    <td> <input type="submit" /></td>
+                    <td colspan="2" align="center"><input type="reset"/>
+                        <input type="submit" /></td>
                 </tr>
             </table>
         </form>
